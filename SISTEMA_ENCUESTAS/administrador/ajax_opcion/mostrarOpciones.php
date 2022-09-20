@@ -7,7 +7,6 @@ if (isset($_POST['id_pregunta'])) {
     $id_pregunta = $_POST['id_pregunta'];
 }
 
-// Diseñamos el encabezado de la tabla
 $data = '
     <table class="table table-bordered table-hover table-condensed">
         <thead class="thead-dark">

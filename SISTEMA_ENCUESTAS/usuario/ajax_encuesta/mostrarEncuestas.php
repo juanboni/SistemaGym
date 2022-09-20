@@ -1,6 +1,6 @@
 <?php
 
-// Incluimos el archivo de conexión a base de datos
+//  conexión a base de datos
 include ("../../conexion.php");
 
 $query = "SELECT * FROM encuestas WHERE estado = '1'";

@@ -57,7 +57,7 @@
 	
 	
 	
-	//sumo 1 semana
+	
 	$sumafechacaducacionticket = date("d-m-Y",strtotime($fecha_generadoticket."+ 6 month")); 
 	//resto 1 semana
 	$sumaresta = date("d-m-Y",strtotime($fecha_generadoticket."- 6 month"));

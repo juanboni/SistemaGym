@@ -147,7 +147,7 @@
     </div>
 </div>
 
-<!-- Modal Modificar Producto -->
+<!--  Modificar Producto -->
 <div class="modal fade" id="modal_modificar" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">

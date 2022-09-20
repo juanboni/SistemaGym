@@ -6,7 +6,7 @@ if (isset($_POST['id_opcion']) && isset($_POST['id_opcion']) != "") {
     // Obtener id_opcion
     $id_opcion = $_POST['id_opcion'];
 
-    // Obtener detalles de la pregunta
+    // Obtener detalles pregunta
     $query = "SELECT * FROM opciones WHERE id_opcion = '$id_opcion'" ;
     if (!$result = mysqli_query($con, $query)) {
         exit(mysqli_error($con));
@@ -21,7 +21,7 @@ if (isset($_POST['id_opcion']) && isset($_POST['id_opcion']) != "") {
         $response['status'] = 200;
         $response['message'] = "Información no encontrada!";
     }
-    // display JSON data
+  
     echo json_encode($response) ;
 }
 else {

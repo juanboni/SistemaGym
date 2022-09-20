@@ -3,7 +3,7 @@
 // Incluimos el archivo de conexión a base de datos
 include ("../../conexion.php");
 
-// Diseñamos el encabezado de la tabla
+
 $data = '
     <table class="table table-bordered table-hover table-condensed">
         <thead class="thead-dark">

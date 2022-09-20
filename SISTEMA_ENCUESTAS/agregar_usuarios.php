@@ -1,7 +1,7 @@
 <?php
 
 
-    // Incluiye archivo de conexión a base de datos
+    //conexión a base de datos
     include("conexion.php");
     echo  "se conecto!!!!!!!!!!!";
 
